@@ -1,5 +1,21 @@
 ﻿#include <iostream>
 
+enum class months
+{
+    January = 1,
+    February,
+    March,
+    April,
+    May,
+    June,
+    July,
+    August,
+    September,
+    October,
+    November,
+    December
+};
+
 std::string IndexToMonth(int index);
 bool validIndexEnum(int index);
 bool Execute();
@@ -84,18 +100,3 @@ bool Execute()
     }
     return false;
 }
-enum class months
-{
-    January = 1,
-    February,
-    March,
-    April,
-    May,
-    June,
-    July,
-    August,
-    September,
-    October,
-    November,
-    December
-};
